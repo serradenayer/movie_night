@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Review Site</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Movie Review Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#featured">Featured Movies</a></li>
+        <li><a href="#preferences">Your Preferences</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="categories">
+      <h2>Movie Categories</h2>
+      <div id="accordion">
+        <h3>Action</h3>
+        <div><p>High-octane movies filled with thrills and stunts.</p></div>
+        <h3>Drama</h3>
+        <div><p>Explore deep stories and character arcs.</p></div>
+        <h3>Comedy</h3>
+        <div><p>Laugh out loud with these picks!</p></div>
+      </div>
+    </section>
+
+    <section id="featured">
+      <h2>Featured Movies</h2>
+      <div id="carousel">
+        <div><img src="assets/wicked.jpg" alt="Wicked 1"><p>Wicked Description</p></div>
+        <div><img src="assets/wakandaforever.jpg" alt="Black Pather: Wakanda Forever"><p>Black Pather: Wakanda Forever Description</p></div>
+        <div><img src="assets/deadpoolwolverine.jpg" alt="Deadpool and Wolverine"><p>Deadpool and Wolverine Description</p></div>
+      </div>
+    </section>
+    <div id="savedPreferences">
+        <h3>Saved Preferences:</h3>
+        <p id="storedGenre"></p>
+      </div>
+    </section>
+
+    <section id="apiContent">
+      <h2>Movie Recommendations</h2>
+      <button id="loadMovies">Load Movies</button>
+      <div id="movieList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Movie Review Hub</p>
+  </footer>
+</body>
+</html>
