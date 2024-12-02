@@ -5,9 +5,10 @@ $(document).ready(function () {
   $("#accordion").accordion();
 
   $("#carousel").slick({
-    slidesToShow: 1,
-    autoplay: true,
-    arrows: true,
+    slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
   });
 
   $("#preferencesForm").on("submit", function (e) {
