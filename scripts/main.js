@@ -30,7 +30,7 @@ $(document).ready(function () {
 
   $("#loadMovies").on("click", function () {
     $.ajax({
-      url: "movies.json",
+      url: "scripts/movies.json",
       method: "GET",
       success: function (data) {
         let movieContent = "";
