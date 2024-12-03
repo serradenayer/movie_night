@@ -28,6 +28,11 @@ $(document).ready(function () {
   }
   displayPreferences();
 
+// Format the date 
+const today = new Date();
+const dateString = today.toDateString();
+document.getElementById('date').textContent = dateString;
+
   $("#loadMovies").on("click", function () {
     $.ajax({
       url: "scripts/movies.json",
