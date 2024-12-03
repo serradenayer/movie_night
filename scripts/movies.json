@@ -1,6 +1,6 @@
 {
     "movies": [
-      { "title": "Wicked", "description": "Wicked description." },
+      { "title": "Wicked", "time":"9:00 ", "description": "Wicked description."},
       { "title": "Black Pather: Wakanda Forever", "description": "Wakanda forever description." },
       { "title": "Deadpool and Wolverine", "description": "Deadpool description" }
     ]
