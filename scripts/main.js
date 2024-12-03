@@ -38,7 +38,7 @@ $(document).ready(function () {
           movieContent += `
             <div>
               <h3>${movie.title}</h3>
-              <h3>${movie.time}</h3>
+              <h5>${movie.time}</h5>
               <p>${movie.description}</p>
             </div>
           `;
