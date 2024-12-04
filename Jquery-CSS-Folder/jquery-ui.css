@@ -6,7 +6,7 @@
 
 /* Layout helpers
 ----------------------------------*/
-.ui-helper-hidden {
+ui-helper-hidden {
 	display: none;
 }
 .ui-helper-hidden-accessible {

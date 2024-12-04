@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Review Site</title>
+  <title>Movie Night Cinema</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -15,7 +15,7 @@
 </head>
 <body>
   <header>
-    <h1>Movie Review Hub</h1>
+    <h1>Movie Night Cinema</h1>
     <nav>
       <ul>
         <li><a href="#categories">Categories</a></li>
@@ -29,11 +29,11 @@
       <h2>Movie Categories</h2>
       <div id="accordion">
         <h3>Action</h3>
-        <div><p>High-octane movies filled with thrills and stunts.</p></div>
+        <div><p>Action genre movies are a thrilling rollercoaster ride of excitement, energy, and adrenaline-pumping sequences. These films are characterized by high-stakes scenarios, explosive battles, and daring feats of heroism. They often feature fast-paced plots, intense combat scenes, and breathtaking stunts that keep audiences on the edge of their seats. Beyond the sheer spectacle, action films also explore themes of courage, loyalty, and the triumph of good over evil. With visually stunning effects, heart-pounding soundtracks, and memorable one-liners, action movies provide an exhilarating escape into a world where the impossible becomes possible.</p></div>
         <h3>Drama</h3>
-        <div><p>Explore deep stories and character arcs.</p></div>
+        <div><p>Drama genre movies are a captivating tapestry of human emotion, relationships, and life's complexities. These films delve into profound themes, exploring the intricacies of the human condition. They often feature realistic characters and situations, evoking empathy and deep emotional responses from the audience. From intense personal struggles to societal issues, drama movies aim to reflect real-life scenarios, offering both a mirror to our own experiences and a window into others' lives. With compelling storytelling and powerful performances, dramas can leave a lasting impact, making viewers ponder long after the credits roll. Whether it's a heartbreaking tale of love and loss or a stirring narrative of triumph over adversity, drama movies are designed to connect with us on a profound, emotional level.</p></div>
         <h3>Comedy</h3>
-        <div><p>Laugh out loud with these picks!</p></div>
+        <div><p>Comedy genre movies are a delightful escape into the world of humor, wit, and laughter. These films are crafted to entertain, amuse, and tickle the funny bone of audiences through a variety of comedic styles, from slapstick and satire to romantic comedy and farce. The appeal of comedy movies extends beyond mere laughter—they often provide a light-hearted lens through which to view life's challenges, offering a sense of relief and joy. Whether it’s through the clever wit of a dialogue, the hilarious antics of a character, or a humorous take on romance, comedy films have the unique power to uplift spirits and bring people together.</p></div>
       </div>
     </section>
 
@@ -46,16 +46,16 @@
         <div><img src="assets/oppenheimer.jpg" alt="oppenheimer"><p>oppenheimer Description</p></div>
       </div>
     </section>
-    <section id="preferences">
-      <h2>Your Preferences</h2>
-      <form id="preferencesForm">
-        <label for="favoriteGenre">Favorite Genre:</label>
-        <input type="text" id="favoriteGenre" name="favoriteGenre" placeholder="Enter your favorite genre">
+    <section id="suggestion">
+      <h2>Suggest a Movie</h2>
+      <form id="suggestionForm">
+        <label for="suggestedMovie">Want us to show your favorite movie?</label>
+        <input type="text" id="suggestedMovie" name="suggestedMovie" placeholder="Movie Title">
         <button type="submit">Save Preferences</button>
       </form>
-      <div id="savedPreferences">
-        <h3>Saved Preferences:</h3>
-        <p id="storedGenre"></p>
+      <div id="savedSuggestion">
+        <h3>Suggested:</h3>
+        <p id="storedSuggestion"></p>
       </div>
     </section>
 

@@ -11,22 +11,22 @@ $(document).ready(function () {
   autoplaySpeed: 5000,
   });
 
-  $("#preferencesForm").on("submit", function (e) {
+  $("#suggestionForm").on("submit", function (e) {
     e.preventDefault();
-    const genre = $("#favoriteGenre").val();
-    localStorage.setItem("favoriteGenre", genre);
-    displayPreferences();
+    const genre = $("#suggestedMovie").val();
+    localStorage.setItem("suggestedMovie", genre);
+    displaySugestion();
   });
 
-  function displayPreferences() {
-    const savedGenre = localStorage.getItem("favoriteGenre");
+  function displaySuggestion() {
+    const savedGenre = localStorage.getItem("suggestedMovie");
     if (savedGenre) {
-      $("#storedGenre").text(`Your favorite genre is: ${savedGenre}`);
+      $("#storedSuggestion").text(`We hear you, we might just put on a showing of ${savedSuggestion}`);
     } else {
-      $("#storedGenre").text("No preferences saved.");
+      $("#storedSuggestion").text("No suggestion given.");
     }
   }
-  displayPreferences();
+  displaySuggestion();
 
 // Format the date 
 const today = new Date();
