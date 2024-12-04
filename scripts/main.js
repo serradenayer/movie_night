@@ -13,14 +13,14 @@ $(document).ready(function () {
 
   $("#suggestionForm").on("submit", function (e) {
     e.preventDefault();
-    const genre = $("#suggestedMovie").val();
-    localStorage.setItem("suggestedMovie", genre);
+    const suggestion = $("#suggestedMovie").val();
+    localStorage.setItem("suggestedMovie", suggestion);
     displaySugestion();
   });
 
   function displaySuggestion() {
-    const savedGenre = localStorage.getItem("suggestedMovie");
-    if (savedGenre) {
+    const savedSuggestion = localStorage.getItem("suggestedMovie");
+    if (savedSuggestion) {
       $("#storedSuggestion").text(`We hear you, we might just put on a showing of ${savedSuggestion}`);
     } else {
       $("#storedSuggestion").text("No suggestion given.");
