@@ -15,7 +15,7 @@ $(document).ready(function () {
     e.preventDefault();
     const suggestion = $("#suggestedMovie").val();
     localStorage.setItem("suggestedMovie", suggestion);
-    displaySugestion();
+    displaySuggestion();
   });
 
   function displaySuggestion() {
