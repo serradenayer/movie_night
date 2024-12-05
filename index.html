@@ -20,7 +20,7 @@
       <ul>
         <li><a href="#categories">Categories</a></li>
         <li><a href="#featured">Featured Movies</a></li>
-        <li><a href="#preferences">Your Preferences</a></li>
+        <li><a href="#suggestion">Suggest a Movie</a></li>
       </ul>
     </nav>
   </header>
@@ -40,10 +40,10 @@
     <section id="featured">
       <h2>Featured Movies</h2>
       <div id="carousel">
-        <div><img src="assets/wicked.jpg" alt="Wicked 1"><p>Wicked Description</p></div>
-        <div><img src="assets/wakandaforever.jpg" alt="Black Pather: Wakanda Forever"><p>Black Pather: Wakanda Forever Description</p></div>
-        <div><img src="assets/deadpoolwolverine.jpg" alt="Deadpool and Wolverine"><p>Deadpool and Wolverine Description</p></div>
-        <div><img src="assets/oppenheimer.jpg" alt="oppenheimer"><p>oppenheimer Description</p></div>
+        <div><img src="assets/wicked.jpg" alt="Wicked 1"><p>Wicked</p></div>
+        <div><img src="assets/wakandaforever.jpg" alt="Black Pather: Wakanda Forever"><p>Black Pather: Wakanda Forever</p></div>
+        <div><img src="assets/deadpoolwolverine.jpg" alt="Deadpool and Wolverine"><p>Deadpool and Wolverine</p></div>
+        <div><img src="assets/oppenheimer.jpg" alt="Oppenheimer"><p>Oppenheimer</p></div>
       </div>
     </section>
     <section id="suggestion">
@@ -51,16 +51,16 @@
       <form id="suggestionForm">
         <label for="suggestedMovie">Want us to show your favorite movie?</label>
         <input type="text" id="suggestedMovie" name="suggestedMovie" placeholder="Movie Title">
-        <button type="submit">Save Preferences</button>
+        <button type="submit">Send Request</button>
       </form>
       <div id="savedSuggestion">
-        <h3>Suggested:</h3>
+        <h3>Request Sent:</h3>
         <p id="storedSuggestion"></p>
       </div>
     </section>
 
     <section id="apiContent">
-      <h2>Movie Recommendations & Showtimes for Today</h2>
+      <h2>Movie Showtimes</h2>
       <h4 id="date"></h4>
       <button id="loadMovies">Load Movies</button>
       <div id="movieList"></div>
@@ -68,7 +68,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 Movie Review Hub</p>
+    <p>&copy; 2024 Movie Night Cinema</p>
   </footer>
 </body>
 </html>
