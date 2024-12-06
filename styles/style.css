@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    background-color: #4b0909;
+    background-color: #740606;
     color: #fff;
     padding: 10px 20px;
   }
@@ -44,11 +44,12 @@ body {
   }
   
   #accordion h3 {
-    background-color: #4b0909;
+    background-color: #740606;
     color: #fff;
     padding: 10px;
     margin: 0;
     cursor: pointer;
+    border: 3px #fff;
   }
   
   #accordion div {
@@ -90,14 +91,14 @@ body {
     display: block;
   }
   #suggestedMovie {
-    color: #4b0909;
+    color: #740606;
     background-color: #fff;
     padding: 10px;
-    border: 3px #4b0909;
+    border: 3px #740606;
   }
 #apiContent button{
   color: #fff;
-  background-color: #4b0909;
+  background-color: #740606;
   padding: 10px;
   border: 3px black;
 }
